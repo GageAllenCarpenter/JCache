@@ -59,17 +59,17 @@ Below are a few core examples that demonstrate how to use JCache to store and ma
 The `add` method allows you to add elements to the cache. If the cache file is empty, the method creates a new cache file and writes the provided element to it. If the cache file already contains data, the method appends the new element to the existing data.
 ```java
  public static void main(String[] args) {
-     // Define a folder and file for the cache
-     File folder = new File("cache-folder");
-     File file = new File(folder, "cache-file.json");
+	 // Define a folder and file for the cache
+	File folder = new File("cache-folder");
+	File file = new File(folder, "cache-file.json");
 	
 	//Create an instance of JCache
 	Cache<String> cache = new Cache<>(folder, file);
-
+	
 	//Add elements to the cache
 	boolean added1 = cache.add("data1");
 	boolean added2 = cache.add("data2");
-
+	
 	//Print the results
 	System.out.println("Added data1: " + added1);
 	System.out.println("Added data2: " + added2);
