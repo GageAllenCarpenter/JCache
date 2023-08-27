@@ -19,7 +19,7 @@ JCache is a generic utility for storing and managing data in files that is compa
 
 Traditional data structures within the JCF operate in memory, which means they lack data persistence. In most cases, databases are used to provide data persistence. However, there are scenarios where a database might not be a suitable option. This is where JCache comes in. It offers familiar methods like `add`, `get`, and `remove`, similar to those found in the collections framework. JCache takes these methods and stores data into the secondary storage of the computer, such as the hard drive, allowing stored data to be retrieved at a later time.
 
-JCache is especially valuable when a traditional database isn't available or suitable, but you still need your application to maintain persistent data. Additionally, JCache provides the advantage of enhanced security. No connection strings are associated with JCache, and the data is stored locally. This design ensures that access to the data is only possible for those who possess the JSON output file associated with JCache.
+Additionally, JCache provides the advantage of enhanced security. No connection strings are associated with JCache, and the data is stored locally. This design ensures that access to the data is only possible for those who possess the JSON output file associated with JCache.
 ## Maven
 
 To use JCache in your Maven project add this dependency to the dependencies section of the pom.xml file within your project.
