@@ -56,7 +56,7 @@ Currently working with SonaType(Maven Host) on deployment 8/27/2023
 ## Examples
 Below are a few core examples that demonstrate how to use JCache to store and manage data in files.
 ### Adding Data
-The 'add' method allows you to add elements to the cache. If the cache file is empty, the method creates a new cache file and writes the provided element to it. If the cache file already contains data, the method appends the new element to the existing data.
+The `add` method allows you to add elements to the cache. If the cache file is empty, the method creates a new cache file and writes the provided element to it. If the cache file already contains data, the method appends the new element to the existing data.
 ```java
  public static void main(String[] args) {
      // Define a folder and file for the cache
@@ -77,7 +77,7 @@ The 'add' method allows you to add elements to the cache. If the cache file is e
 ```
 
 ### Retrieving Data
-The 'get' method retrieves the cached data from the cache file and returns it as a list. You need to provide a TypeReference to specify the data type you want to retrieve. If the cache file is empty or unavailable, the method returns 'null'.
+The `get` method retrieves the cached data from the cache file and returns it as a list. You need to provide a TypeReference to specify the data type you want to retrieve. If the cache file is empty or unavailable, the method returns `null`.
 ```java
  public static void main(String[] args) {
      // Define a folder and file for the cache
@@ -100,7 +100,7 @@ The 'get' method retrieves the cached data from the cache file and returns it as
 ```
 
 ### Removing Data
-The 'remove' method allows you to remove an element from the cache at a specified index. If the cache file contains data and the removal is successful, the method updates the cache file with the modified data. If the cache file is empty or the removal fails, the method returns 'false'.
+The `remove` method allows you to remove an element from the cache at a specified index. If the cache file contains data and the removal is successful, the method updates the cache file with the modified data. If the cache file is empty or the removal fails, the method returns `false`.
 ```java
  public static void main(String[] args) {
      // Define a folder and file for the cache
@@ -126,7 +126,7 @@ The 'remove' method allows you to remove an element from the cache at a specifie
  }
 ```
 ### Removing All Data
-The 'removeAll' method removes all elements from the cache by deleting the cache file and creating a new, empty cache file. This ensures that the cache file is empty after the operation.
+The `removeAll` method removes all elements from the cache by deleting the cache file and creating a new, empty cache file. This ensures that the cache file is empty after the operation.
 ```java
 public static void main(String[] args) {  
 	// Define a folder and file for the cache  
