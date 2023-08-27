@@ -1,5 +1,9 @@
 
 # JCache
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)]()
+[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
+[![Coverage](https://img.shields.io/badge/coverage-90%25-green.svg)]()
 
 JCache is a generic utility for storing and managing data in files. JCache is similar to other data structures in the Java Collections Framework (JCF), such as ArrayList, but utilizes the computers secondary storage rather than primary storage.
 
